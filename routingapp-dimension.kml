@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <LookAt>
+            <longitude>73.13498376527635</longitude>
+            <latitude>33.931702274017006</latitude>
+            <altitude>70038.64647669875</altitude>
+            <heading>0.0</heading>
+            <tilt>0.0</tilt>
+            <range>56594.899997166794</range>
+            <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Folder>
+            <name>routingapp:dimension</name>
+            <LookAt>
+                <longitude>-0.2294036220599338</longitude>
+                <latitude>83.56342074192864</latitude>
+                <altitude>1482244.626420025</altitude>
+                <heading>0.0</heading>
+                <tilt>0.0</tilt>
+                <range>1197731.4043538494</range>
+                <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Placemark id="dimension.1">
+                <name>dimension.1</name>
+                <description>&lt;h4&gt;dimension&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>73.13498376527635</longitude>
+                    <latitude>33.931702274017006</latitude>
+                    <altitude>70038.64647669875</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>56594.899997166794</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-line.1.png</href>
+                            <refreshInterval>0.0</refreshInterval>
+                            <viewRefreshTime>0.0</viewRefreshTime>
+                            <viewBoundScale>1.0</viewBoundScale>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ffff0000</color>
+                        <width>1.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>73.04792007917547,33.972197770942984,687.952976185681</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>73.04333932582685,33.688875385473715,688.2384 73.04823104666657,33.991431299727296,687.9336 73.10567113946725,34.024576027084315,752.5512 73.10604027848305,34.02394294193764,783.0312 73.14932467792813,34.056314857822144,818.9976 73.14971904647247,34.05900528110278,839.4192 73.15240444061118,34.06444169968204,856.488 73.15267023076085,34.06443633526406,856.488 73.2124917898911,34.14016708189388,1238.098 73.21349686390072,34.141568033190254,1238.707 73.21355914144125,34.141590748147905,1232.916 73.21745722933116,34.152209194545186,1229.868 73.22115247516419,34.160298988393095,1226.21 73.22132815985472,34.1607150660666,1226.21 73.22700832417837,34.17446088435698,1207.922 73.22715224145578,34.17443607392363,1205.179</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

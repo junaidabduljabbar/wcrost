@@ -1,0 +1,180 @@
+@charset "utf-8";
+html, body {
+	height : 100%;
+	}
+.header {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #CCC;
+	background-color: #000;
+	height: 50px;
+	width: 400px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#logo {
+	width: 120px;
+	height: 80px;
+	margin-left:20px;
+	-webkit-filter: drop-shadow(0px 0px 20px #fff);
+	filter: drop-shadow(0px 0px 20px #fff);
+	}
+#topmenu a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	color:black;
+	background-color:white;
+	border-radius: 5px 5px 5px 5px;
+	display: inline;
+	padding: 10px 20px;
+	text-align: center;
+	display: block;
+	font-weight:normal;
+	text-decoration: none;
+}
+#topmenu a:hover {
+	background-color:#258ecd;
+	}
+#tryagain {
+	width:80px;
+	height:10px;
+	margin-left:20px;
+	}
+#signinhere {
+	width:100px;
+	height:10px;
+	margin-left:20px;
+	}
+.my_body {
+	font-family: Verdana, Geneva, sans-serif;
+	/*background-color: #000;
+	background-image:url(../images/importimage_7.jpg);*/
+	background-repeat:no-repeat;
+	height:850px;
+	/*background-size:2000px 1100px;*/
+	color: #CCC;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC
+} 
+.my_body2 {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #000;
+	background-image:url(../images/importimage_7.jpg);
+	background-repeat:no-repeat;
+	height:850px;
+	background-size:2000px 1000px;
+	color: #CCC;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC
+} 
+.circular {
+	width: 100px;
+	height: 120px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: no-repeat;
+}
+.profile_container {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	padding: 10px 10px 10px 10px;
+	width:35%; 
+	box-shadow:0px 0px 30px;
+	border-radius: 5px 5px 5px 5px;
+	margin-left:25px;
+	margin-bottom:400px;
+	}
+
+#slider {
+	border: 2px solid #eaeaea;
+   	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+   	border-radius: 10px 10px 10px 10px;
+	height: 300px;
+   	width: 600px;
+	float:right;
+    -webkit-animation-name: example; 
+    -webkit-animation-delay:1.5s; 
+	-webkit-animation-duration:10s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+}
+@-webkit-keyframes example {
+    10%{background-image:url(../images/ELEC_Rheinmetall_C4I_lg.jpg);}
+    30%{background-image:url(../images/3-photo1B.jpg);}
+    70%{background-image:url(../images/Displays.jpg);}
+    100%{background-image:url(../images/SCSfrontpic.gif);}
+}
+#intro {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #CCC;
+	padding: 10px;
+   	height: 400px;
+   	width: 600px;
+	}
+#doc {
+	background-color:#999;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color:#000;
+	padding: 10px;
+   	height: 400px;
+   	width: 80%;
+	margin-left:100px;
+	border-radius: 10px 10px 10px 10px ;
+	}
+button[type=button] {
+	background-color:#FFF;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	border-radius: 15px 15px 15px 15px;
+	border:0;
+	margin-left: 5px;
+	cursor: pointer; 
+	width: 50px;
+	height: 50px;
+	}
+button[type=button]:hover {
+	background-color:#258ecd;
+	}
+.button_userloc {
+	background-image:url(../images/96287-200.png);
+	}
+.button_barrier {
+	background-image:url(../images/whack_vlc_player.png);
+	}
+.button_rbarrier {
+	background-image:url(../images/whack_vlc_player1.png);
+	}
+.button_view {
+	background-image:url(../images/planet_earth_black_white.png);
+	}
+.button_intersection {
+	background-image:url(../images/choke1.png);
+	}
+.button_elevprofile {
+	background-image:url(../images/icon-mountains.png);
+	}	
+.button_export {
+	background-image:url(../images/export_doc_file-128.png);
+	}
+.topmenu {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	background-color: #000;
+	height: 15px;
+	width: 60px;
+}
+.footer {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #000;
+	height: 40px;
+	width: 900px;
+	font-size: 12px;
+	color: #CCC;
+}
